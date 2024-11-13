@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    border: 2px solid #987988;
+    background-color: skyblue;
+}
+
+div{
+    border: 2px solid #973688;
+    background-color: coral;
+}
+
+p{
+    border: 2px solid #347988;
+    background-color: blanchedalmond;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+br{
+    border: 2px solid #134588;
+}
+
+b{
+    border: 2px solid hsl(283, 41%, 69%);
+    font-size: 32px;
+    color: midnightblue;
+    padding: 10px 10px 10px 10px;
+}
+
+time{
+    border: 2px solid #e7ff49;
+}
+
+cite{
+    border: 2px solid #a6e4fb;
+}
