@@ -1,0 +1,40 @@
+
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: black;
+}
+.heading1 {
+    color:red;
+    font-size: 40px;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.heading1:hover {
+    color: white;
+}
+
+img {
+    padding: 20px;
+}
+
+img:hover {
+    opacity: 20%;
+}
+.heading2 {
+    color: red;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.para {
+    color: white;
+    background-color: red;
+    padding: 50px;
+}
+
+.para:hover {
+    color: black;
+}
