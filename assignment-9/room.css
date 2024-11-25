@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+
+.cchair {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    z-index: 2;
+}
+
+.ddesk {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 520px;
+    left: 40px;
+    z-index: 3;
+}
+
+.llamp {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 70px;
+    left: 460px;
+    transform: scaleX(-1);
+}
+.bbed {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    z-index: 2;
+}
+
+.wwindow {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 85px;
+    left: 120px;
+    z-index: 1;
+}
+
+button {
+    color:white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+}
