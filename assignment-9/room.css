@@ -66,3 +66,11 @@ button {
     display: flex;
     margin: auto;
 }
+
+.day {
+    background-color: rgb(247, 255, 210); /* Light yellow */
+  }
+  
+  .night {
+    background-color: rgb(0, 0, 139); /* Dark blue */
+  }
