@@ -1,4 +1,7 @@
 
+alert("Please view this website on desktop for correct rendering :)");
+
+
 const title = document.getElementById('title');
 
 title.addEventListener('mouseover', () => {
