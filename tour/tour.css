@@ -1,59 +1,72 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
-    background-color: black;
-    justify-content: center;
-    align-items: center;
+    background-color: #252525;
     min-height: 100vh;
-    font-family: Arial, sans-serif;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    width: flex;
-    height: flex;
-}
+.big-shoulders-display {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
 
-.box {
-    display: flex;
+
+
+.heading {
+    display: flexbox;
+    grid-template-columns: repeat(1,50px); 
+    grid-template-rows: repeat(2, 50px);    
     justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 300px;
-    background-color: #3498db;
-    color: white;
-    font-size: 1.5rem;
-    border: 1px solid #fff;
 }
 
-.box img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image fills the square while maintaining aspect ratio */
-    display: block; /* Removes inline spacing below images */
+a {
+    text-decoration: none;
+}
+.hover-paragraph {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #C92C2C;
+    font-size: 80px;
+    padding-left: 100px;
+    font-weight: 700;
 }
 
-.her-container {
-    position: relative;
-    width: 200px;
-    height: 200px;
+.hover-title {
+    padding-left: 100px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #FEFDF9;
+    font-size: 200px;
+    font-weight: 700;
 }
 
-
-.motion-her {
-    opacity: 0; /* Initially hidden */
+h3 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #FEFDF9;
+    font-size: 60px;
+    font-weight: 400;
+}
+h3:hover {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #C92C2C;
+    background-color: #252525;
+    font-size: 60px;
+    font-weight: 700;
 }
 
-.image-container:hover .static-her {
-    opacity: 0; /* Hide static image on hover */
-}
-
-.image-container:hover .motion-her{
-    opacity: 1; /* Show GIF on hover */
+.grid-container {
+    display: grid;
+    position: fixed;
+    top: 500px;
+    left:200px;
+    grid-template-columns: repeat(6, 250px); 
+    grid-template-rows: repeat(2, 370px);    
+    justify-content: center;
 }

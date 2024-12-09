@@ -12,8 +12,30 @@
   }
 
 
+a {
+    text-decoration: none;
+    text-align: right;
+}
+#home {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    right: 200px;
+    color: #252525;
+    display:fixed;
+    font-size: 80px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: right;
+    opacity: 1;
+    right: 120px;
+    top:975px;
+    position: fixed;
+}
 
-
+#home:hover{
+    color: #C92C2C;
+}
 #headtext {
     font-family: "Big Shoulders Display", sans-serif;
     font-optical-sizing: auto;
