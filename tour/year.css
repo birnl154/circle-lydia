@@ -19,7 +19,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     padding: 20px;
-    color: rgb(0, 0, 0);
+    color: #252525;
     font-size: 80px;
     font-weight: 400;
 }
@@ -27,8 +27,8 @@
     font-family: "Big Shoulders Display", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    color: rgb(255, 0, 0);
-    background-color:black;
+    color: #C92C2C;
+    background-color: #252525;
     font-size: 80px;
     font-weight: 700;
 }
@@ -38,14 +38,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #FEFDF9;
     padding: 20px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 250px); /* 3 columns of equal width */
-    grid-template-rows: repeat(3, 370px);    /* 3 rows of equal height */
+    grid-template-rows: repeat(4, 370px);    /* 3 rows of equal height */
     gap: 20px; /* Space between grid items */
 }
 
@@ -76,4 +76,25 @@ body {
 
 .image-container:hover::after {
     opacity: 1; /* Show the GIF on hover */
+}
+
+#leftarrow {
+    opacity: 1;
+    top:500px;
+    left: 60px;
+    position: absolute;
+}
+#leftarrow:hover {
+    opacity: .7;
+}
+
+#rightarrow {
+    opacity: 1;
+    right: 60px;
+    top:500px;
+    position: absolute;
+}
+
+#rightarrow:hover {
+    opacity: .7;
 }
